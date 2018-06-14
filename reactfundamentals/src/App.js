@@ -10,8 +10,8 @@ class App extends Component {
     super();
     this.state = {
       isUser: false,
-      usersEmail: "look something is written here!"
-
+      usersEmail: "look something is written here!",
+      usersName: "User name placeholder"
     }
   }
 
@@ -43,7 +43,7 @@ class App extends Component {
               {this.checkUser()}
             </Route>
             <Route exact path="/dashboard">
-              <Dashboard emailValueFromApp={this.state.usersEmail}/>
+              <Dashboard emailValueFromApp={this.state.usersEmail} />
             </Route>
           </Switch>
           

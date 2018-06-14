@@ -36,8 +36,7 @@ class RegisterForm extends Component {
                     </div>
                     <br />
                     <button type="submit">
-                        Submit
-                        {/* <Link to="/dashboard">Submit</Link> */}
+                        <Link to="/dashboard">Submit</Link>
                     </button>
                     
                     {/* <button value="Submit">Submit</button> */}
